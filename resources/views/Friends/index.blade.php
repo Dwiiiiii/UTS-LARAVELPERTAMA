@@ -4,7 +4,7 @@
 
 @section('content')
 <div id="content" class="p-4 p-md-5 pt-5">
-    <h2 class="mb-4">Friends | Priti Oktaviani</h2>
+    
 <a href="/friends/create"><button class="card-link btn-primary">Tambah teman</button></a>
 @foreach ($friends as $friend)
 

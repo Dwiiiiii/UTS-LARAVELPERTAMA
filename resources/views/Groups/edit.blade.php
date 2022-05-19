@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title' , 'Groups')
+@section('title' , 'Edit Groups')
 
 @section('content')
 <form action="/groups/{{ $group['id'] }}" method="POST">

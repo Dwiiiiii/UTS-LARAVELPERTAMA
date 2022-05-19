@@ -22,7 +22,7 @@
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Alamat</label>
-    <input type="text" class="form-control" name="alamat" id="exampleInputPassword1" value="{{ old('alamat')}}">
+    <input type="text" class="form-control" name="alamat" id="exampleInputPassword1" value="{{ old('alamat')}}" required>
     @error('alamat')
     <div class="alert alert-danger">{{ $message }}</div>
   @enderror

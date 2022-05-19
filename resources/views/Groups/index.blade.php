@@ -4,7 +4,7 @@
 
 @section('content')
 <div id="content" class="p-4 p-md-5 pt-5">
-    <h2 class="mb-4">Groups | Priti Oktaviani</h2>
+
 <a href="/groups/create"><button class="card-link btn-primary">Tambah group</button></a>
 @foreach ($groups as $group)
 
